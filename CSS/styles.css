@@ -107,7 +107,10 @@ a {
   display: flex;
   align-items: center;
 }
-  
+
+form{
+  gap: 10px;
+}
   
 .button-menu-toggle {
   display: none;
@@ -218,7 +221,7 @@ footer {
   video{
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    width: 70%;
   }
   
 }

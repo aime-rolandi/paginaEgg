@@ -215,6 +215,11 @@ footer {
     gap: 5px;
 
   }
+  video{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+  }
   
 }
 

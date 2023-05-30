@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Website</title>
+    <link rel="stylesheet" href="CSS/styles.css" type="text/css">
+</head>
+
+<body>
+    <header class="container-nav" role="navigation">
+        <nav class="navbar">
+            <a href="index.html" class="brand">Mi Página</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </header>
+    
+    <!-- creamos el cuerpo de la pagina -->
+    <main>
+        <!-- este contenedor guarda la informacion que se mostrara en el cuerpo -->
+
+        <div class="container">        
+            
+            <h1>Bienvenidios a mi primer Website!</h1>
+            <!-- secciones para organizar el body -->
+            <section>
+                <h2>Presentación</h2>
+                <p>Soy <strong>Aimé</strong>, y esta es mi primera página web!</p>
+                <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales</p>
+            </section>
+            
+            <section>
+                <h2>Lo que se viene..</h2>
+                <p>A lo largo de este curso, estaré aprendiendo <strong></strong> HTML, CSS y JavaScript. Estos son lenguajes que me ayudarán a crear una base sólida en el desarrollo web front-end.</p>
+            </section>
+                       
+        </div>
+        
+        <!-- agregamos un video -->
+        <div class="contenedor-video">
+            <video width="560" height="315" src="video/videoP.mp4" controls></video>
+        </div>
+        
+        
+    </main>
+    
+   <!-- creamos el pie de pagina -->
+   <footer>
+    <!-- aqui mostraremos generalmente informacion de contacto del creador -->
+    <p>Este es el footer</p>
+    <!-- este boton genera una alerta -->
+    <button onclick="showAlert()" aria-label="Haz click en mi">Haz click!</button>
+</footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
+
+

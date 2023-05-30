@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Website</title>
+    <link rel="stylesheet" href="CSS/styles.css" type="text/css">
+</head>
+
+<body>
+    <!-- creamos el encabezado con el navegador de la pagina -->
+    <header class="container-nav" role="navigation">
+        <!-- este es el navegador -->
+        <nav class="navbar">
+            <a href="index.html" class="brand">Mi Página</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- generamos un boton para desplegar el menu -->
+        <button class="button-menu-toggle">Menu</button>
+    </header>
+    
+    <!-- creamos el cuerpo de la pagina -->
+    <main>
+        <!-- este contenedor guarda la informacion que se mostrara en el cuerpo -->
+        <div class="container">
+        
+            <h1>Nuestros servicios</h1>
+            <p>Descubre los servicios que ofrecemos</p>
+            <ul>
+                <li>Servicio 1</li>
+                <li>Servicio 2</li>
+                <li>Servicio 3</li>
+            </ul>
+            
+        </div>
+        
+        
+    </main>
+    
+    <!-- creamos el pie de pagina -->
+    <footer>
+        <!-- aqui mostraremos generalmente informacion de contacto del creador -->
+        <p>Este es el footer</p>
+        <!-- este boton genera una alerta -->
+        <button onclick="showAlert()" aria-label="Haz click en mi">Haz click!</button>
+    </footer>
+
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
